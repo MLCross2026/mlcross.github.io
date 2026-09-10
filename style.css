@@ -1,0 +1,129 @@
+body {
+2
+margin: 0;
+3
+font-family: Georgia, serif;
+4
+background: #090909;
+5
+color: #f0f0f0;
+6
+}
+7
+ 
+8
+header {
+9
+display: flex;
+10
+justify-content: space-between;
+11
+align-items: center;
+12
+padding: 20px 50px;
+13
+border-bottom: 1px solid #222;
+14
+}
+15
+ 
+16
+.hero {
+17
+display: flex;
+18
+align-items: center;
+19
+justify-content: center;
+20
+gap: 50px;
+21
+padding: 60px;
+22
+}
+23
+ 
+24
+.hero img {
+25
+max-width: 350px;
+26
+border-radius: 10px;
+27
+}
+28
+ 
+29
+h1, h2, h3 {
+30
+margin: 0;
+31
+}
+32
+ 
+33
+.button {
+34
+display: inline-block;
+35
+margin-top: 20px;
+36
+padding: 12px 25px;
+37
+background: #7a1212;
+38
+color: white;
+39
+text-decoration: none;
+40
+border-radius: 4px;
+41
+}
+42
+ 
+43
+.book-feature {
+44
+display: flex;
+45
+gap: 40px;
+46
+padding: 60px;
+47
+background: #111;
+48
+}
+49
+ 
+50
+.book-feature img {
+51
+width: 280px;
+52
+}
+53
+ 
+54
+.about,
+55
+.newsletter {
+56
+padding: 60px;
+57
+text-align: center;
+58
+}
+59
+ 
+60
+footer {
+61
+text-align: center;
+62
+padding: 30px;
+63
+border-top: 1px solid #222;
+64
+}
+65
+`

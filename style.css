@@ -127,3 +127,10 @@ border-top: 1px solid #222;
 }
 65
 `
+img {
+2
+max-width: 300px;
+3
+height: auto;
+4
+}

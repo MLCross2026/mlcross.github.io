@@ -1,2 +1,55 @@
-<!DOCTYPE html> <html> <head> <title>M.L. Cross</title> </head> <body> <h1>M.L. Cross</h1> <img src="author.jpeg" alt="Author Photo"> </body> </html>
-style.css
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M.L. Cross | Official Author Website</title>
+<style>
+body{margin:0;background:#0a0a0a;color:#f4f4f4;font-family:Georgia,serif;line-height:1.6}
+header{text-align:center;padding:30px 20px;border-bottom:1px solid #333}
+.logo{width:120px;max-width:90%}
+.site-title{font-size:3rem;margin:15px 0 10px}
+.tagline{font-size:1.3rem;color:#c9c9c9;font-style:italic}
+.hero{text-align:center;padding:50px 20px}
+.hero img{width:350px;max-width:90%;border-radius:10px}
+.section{max-width:1000px;margin:auto;padding:50px 25px}
+.section h2{border-bottom:1px solid #444;padding-bottom:10px}
+.book-section{display:flex;flex-wrap:wrap;gap:40px;justify-content:center;align-items:center}
+.book-cover{width:250px;max-width:100%;border-radius:8px}
+.book-text{max-width:500px}
+.newsletter{background:#111;text-align:center}
+.footer{text-align:center;padding:30px;color:#888;border-top:1px solid #333;margin-top:40px}
+@media(max-width:800px){.book-section{flex-direction:column;text-align:center}.site-title{font-size:2.2rem}}
+</style>
+</head>
+<body>
+<header>
+<img src="Logo.jpg" alt="Logo" class="logo">
+<h1 class="site-title">M.L. Cross</h1>
+<p class="tagline">The dead look different in the dark.</p>
+</header>
+<section class="hero">
+<img src="author.jpeg" alt="Author Photo">
+</section>
+<section class="section">
+<h2>About M.L. Cross</h2>
+<p>M.L. Cross writes psychological thrillers exploring memory, identity, trauma, and the fragile line between truth and perception.</p>
+<p>Stories focus on the mysteries hidden within people, the secrets they keep, and the truths they may not survive uncovering.</p>
+</section>
+<section class="section">
+<h2>Featured Novel</h2>
+<div class="book-section">
+<img src="Book cover.jpg" alt="A Crowded Mind" class="book-cover">
+<div class="book-text">
+<h3>A Crowded Mind</h3>
+<p>Ethan Cross is losing time.</p>
+<p>Someone inside him is leaving clues.</p>
+<p>Someone else is trying to stop him from finding the truth.</p>
+<p>Some secrets were buried for a reason.</p>
+</div></div></section>
+<section class="section newsletter">
+<h2>Join the Investigation</h2>
+<p>Newsletter signups, release announcements, and exclusive updates coming soon.</p>
+</section>
+<div class="footer">© 2026 M.L. Cross</div>
+</body></html>
